@@ -1,0 +1,150 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 63%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_book{
+    height: 100vh;
+}
+
+.book{
+    width: 60%;
+    height: 60%;
+    background-image: linear-gradient(105deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9)50%, transparent 50%),url(/css/images/book\ flight.jpg);
+    background-size: 100%;
+    background-position: right;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4 rem rgba(0,0,0,0.2);
+}
+
+.book__form{
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.book-heading {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #07575b;
+}
+
+.form__group{
+    margin-bottom: 2rem;
+}
+
+.form__input{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(196,223,230,0.4);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form__input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border-bottom: 3px solid #07575b;
+    background-color: rgb(196, 223,230); 
+}
+
+.form__input:focus:invalid{
+    border-bottom: 3px solid #db3030;
+}
+
+.form__input::-webkit-input-placeholder{
+    color: grey;
+}
+
+.form__label{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form__radio-group{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.form__radio-button{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.form__radio_label{
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem;
+}
+
+.book-button .btn{
+    background: #900C3F;
+    width: 120px;
+    color: #ffffff;
+    padding: 10px 2px;
+    font-weight: bold;
+    border: rgb(2, 2, 2) 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.book-button .btn:hover{
+    color: white;
+    background-color: black;
+    transition: .7s;
+}
+
+@media screen and (max-width:600px) {
+
+    .book{
+        width: 400px;
+    }
+
+    .book-heading{
+        margin-bottom: 1rem;
+    }
+
+    .book__form{
+        padding: 0;
+    }
+
+    .book-button{
+        margin-top: 10px;
+    }
+
+    .book-heading{
+        font-size: 14px;
+    }
+}
+ 

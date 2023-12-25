@@ -1,0 +1,70 @@
+/* login form start here  */
+
+
+
+.login-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link span {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.btn-link span:hover{
+    background: #e91e63;
+    color: #fff;
+    cursor: pointer;
+    border-color: #e91e63;
+}
+
+.btn-link span a{
+    color: black;
+    text-decoration: none;
+}
+
+.login-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-remember input{
+    font-size: 70px;
+}
+
+.btn-link .login-btn{
+    margin-bottom: 15px;
+}
+
+.login-btn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.login-btn:hover{
+    background: #e91e63;
+    color: #fff;
+    cursor: pointer;
+    border-color: #e91e63;
+}

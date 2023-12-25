@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Flight</title>
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/bookYourFlight.css">
+
+</head>
+<body>
+    
+    <!-- book-section -->
+    <section class="section_book">
+        <div class="book">
+            <div class="book__form">
+                <form action="#" class="form">
+                    <h2 class="book-heading">Start Booking Now</h2>
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Full Name" id="name" required/>
+                        <label for="name" class="form__label">Full Name</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Your email address" id="email" required/>
+                        <label for="email" class="form__label">Email Address</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="dd/mm/yyyy" id="date" required>
+                        <label for="date" class="form__label">Date</label>
+                    </div>
+                    <div class="form__radio-group">
+                        <input type="radio" class="form__radio-input" id="oneway" name="trip"/>
+                        <label for="oneway" class="form__radio-label"><span class="form__radio-button">One way Trip</span></label>
+                        <input type="radio" class="form__radio-input" id="roundtrip" name="roundtrip"/>
+                        <label for="roundtrip" class="form__radio-label"><span class="form__radio-button">Round Way Trip</span></label>
+                        <input type="radio" class="form__radio-input" id="roundtrip" name="roundtrip"/>
+                        <label for="multicity" class="form__radio-label"><span class="form__radio-button">Multi City</span></label>
+                    </div>
+                    <div class="book-button">
+                        <button class="btn">Book Now &rarr;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
